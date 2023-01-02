@@ -119,4 +119,21 @@ height:180px;
             height:8%;
         }
     }
-
+/* Desktop and wide monitors */
+@media only screen and (min-device-width:1200px){
+    #headingGroup h1{
+        padding-top:5px;
+        font-size: 3rem;
+        
+    }
+    .blurb h2{
+        font-size:3.2rem;
+    }
+    #paragraph{
+        font-size:1.6rem;
+    }
+    
+#mainNavbar .navbar-brand#nav-brand,.navbar-nav{
+        font-size:3rem;
+    }
+}
