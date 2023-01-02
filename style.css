@@ -1,3 +1,11 @@
+/* reseting default styling */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+/* body */
 body{
     background: #efecec;
     font-family: "Nunito", sans-serif;
@@ -56,10 +64,6 @@ body{
     line-height: 2;
 }
 
-#img-3{
-    padding: 0px;  
-    height: 500px;   
-}
 
 #Donation-div{
 
@@ -107,4 +111,3 @@ body{
             height:8%;
         }
     }
-
