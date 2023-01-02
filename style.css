@@ -73,6 +73,14 @@ body{
     line-height: 2;
 }
 
+#section-two img{
+    height:20%;
+}
+#section-two p{
+height:180px;
+}
+
+
 /* media queries */
 
 /* big phone and small tablet */
@@ -111,3 +119,4 @@ body{
             height:8%;
         }
     }
+
