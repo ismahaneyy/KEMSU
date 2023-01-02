@@ -1,0 +1,77 @@
+body{
+    background: #efecec;
+    font-family: "Nunito", sans-serif;
+    
+}
+
+#mainNavbar .navbar-brand{
+    color: #140102;
+    font-size: 1.5rem;
+    
+}
+
+
+#mainNavbar .nav-link{
+    color: rgb(7, 0, 0);
+}
+
+#mainNavbar .nav-link:hover{
+   color: #EA1C2C;
+}
+
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100%;
+
+}
+
+
+#headingGroup span{
+    color: #EA1C2C ;
+
+}
+
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 3rem;
+    
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    
+    }
+}
+
+#first{
+    padding: 0%;
+}
+
+.blurb h2{
+    color: black;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: black;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+#img-3{
+    padding: 0px;  
+    height: 500px;   
+}
+
+#Donation-div{
+
+}
+
+#paragraph2{
+    line-height: 2;
+}
