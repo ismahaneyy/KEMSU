@@ -1,3 +1,11 @@
+/* reseting default styling */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+/* body */
 body{
     background: #efecec;
     font-family: "Nunito", sans-serif;
@@ -34,17 +42,10 @@ body{
 
 #headingGroup h1{
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 2rem;
     
 }
 
-@media (max-width: 1200px) {
-    #headingGroup h1{
-        font-weight: 100;
-        font-size: 3rem;
-    
-    }
-}
 
 #first{
     padding: 0%;
@@ -63,10 +64,6 @@ body{
     line-height: 2;
 }
 
-#img-3{
-    padding: 0px;  
-    height: 500px;   
-}
 
 #Donation-div{
 
@@ -74,4 +71,70 @@ body{
 
 #paragraph2{
     line-height: 2;
+}
+
+#section-two img{
+    height:20%;
+}
+#section-two p{
+height:180px;
+}
+
+
+/* media queries */
+
+/* big phone and small tablet */
+@media only screen and (max-device-width:560px){
+    #headingGroup h1{
+        padding-top:5px;
+        font-size: 1.2rem;
+        
+    }
+    .blurb h2{
+        font-size:1.8rem;
+    }
+    #paragraph{
+        font-size:1.1rem;
+    }
+    #img-3{
+        height:8%;
+    }
+}
+
+/* small phone */
+@media only screen and (max-device-width:340px){
+        #headingGroup h1{
+            padding-top:5px;
+            font-weight: 100;
+            font-size: 1rem;
+            
+        }
+        .blurb h2{
+            font-size:1.5rem;
+        }
+        #section-two p{
+            font-size:0.5rem;
+        }
+        #img-3{
+            height:8%;
+        }
+    }
+/* Desktop and wide monitors */
+@media only screen and (min-device-width:1400px){
+    #headingGroup h1{
+        padding-top:5px;
+        font-size: 3rem;
+        
+    }
+    .blurb h2{
+        font-size:3.2rem;
+    }
+    #paragraph{
+        font-size:1.6rem;
+    }
+}
+@media only screen and (min-device-width:1830px){
+    #mainNavbar .navbar-brand#nav-brand,.navbar-nav{
+        font-size:2.4rem;
+    }
 }
